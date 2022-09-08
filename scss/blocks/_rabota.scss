@@ -1,0 +1,133 @@
+.work {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 560px;
+  .work_left {
+    .work_left_inform {
+      max-width: 678px;
+      margin-bottom: 50px;
+      .work_left_title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+      }
+      .work_left_content {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        font-family: pt_sans;
+      }
+    }
+  }
+}
+
+.checking {
+  display: flex;
+  max-width: 678px;
+  height: 176px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-family: pt_sans;
+  &::before {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+}
+.input {
+  width: 24px;
+  margin-left: 32px;
+  margin-right: 40px;
+}
+
+.work_right {
+  display: block;
+  margin-right: 90px;
+  margin-top: 140px;
+
+  &_statistics {
+    border-bottom: 3px solid #ffce50;
+    padding-bottom: 30px;
+    .work_right_sentence {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 150%;
+    }
+    .work_right_fact {
+      font-size: 24px;
+      display: flex;
+      align-items: flex-end;
+      font-family: pt_sans;
+
+      .work_right_rate {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 54px;
+        margin: 0;
+      }
+      .work_right_number {
+        margin: 0;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1320px) {
+  .work_right {
+    display: none;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .work {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 660px;
+    .work_left {
+      .work_left_inform {
+        max-width: 678px;
+        margin-bottom: 50px;
+        .work_left_title {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 48px;
+          line-height: 125%;
+        }
+        .work_left_content {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .checking {
+    display: flex;
+    max-width: 678px;
+    height: 176px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: pt_sans;
+  }
+  .input {
+    width: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+    height: 96px;
+  }
+  .option_inform {
+    margin-top: 24px;
+    max-width: 272px;
+    .option_title {
+      font-size: 18px;
+    }
+    .option_inform_descrip {
+      font-size: 14px;
+      font-family: pt_sans;
+    }
+  }
+}

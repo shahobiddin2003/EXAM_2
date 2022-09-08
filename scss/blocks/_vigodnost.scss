@@ -1,0 +1,162 @@
+.useful {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  .useful_content {
+    max-width: 1341px;
+    height: 453px;
+    background-image: url(../../images/useful_bgimg.png);
+    background-size: 1040px 453px;
+    background-repeat: no-repeat;
+    background-position: right;
+    overflow: hidden;
+    position: relative;
+  }
+  .useful_content::before {
+    content: "";
+    width: 1000px;
+    height: 1000px;
+    background-color: rgba(11, 117, 114, 0.3);
+    position: absolute;
+    right: 457px;
+    transform: rotate(53deg);
+  }
+  .useful_content::after {
+    content: "";
+    text-align: right;
+
+    width: 1015px;
+    height: 1000px;
+    background-color: #0b7572;
+    position: absolute;
+
+    right: 661px;
+    transform: rotate(53deg);
+    overflow: clip;
+  }
+  .useful_content_inform {
+    width: 450px;
+    height: 400px;
+    z-index: 3;
+    position: absolute;
+    display: grid;
+    align-content: center;
+    padding-left: 101px;
+    .useful_content_title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 125%;
+      color: #fff;
+    }
+  }
+}
+
+@media only screen and (max-width: 1320px) {
+  .useful {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .useful_content {
+      max-width: 1341px;
+      height: 383px;
+      background-image: url(../../images/useful_bgimg_tablet.png);
+      background-size: auto 383px;
+      background-repeat: no-repeat;
+      background-position: right;
+      overflow: hidden;
+      position: relative;
+    }
+    .useful_content::before {
+      content: "";
+      width: 1000px;
+      height: 1000px;
+      background-color: rgba(11, 117, 114, 0.3);
+      position: absolute;
+      right: 85px;
+      transform: rotate(50deg);
+    }
+    .useful_content::after {
+      content: "";
+      text-align: right;
+
+      width: 1015px;
+      height: 1000px;
+      background-color: #0b7572;
+      position: absolute;
+
+      right: 172px;
+      transform: rotate(50deg);
+      overflow: clip;
+    }
+    .useful_content_inform {
+      width: 450px;
+      height: 400px;
+      z-index: 3;
+      position: absolute;
+      display: grid;
+      align-content: center;
+      padding-left: 39px;
+      .useful_content_title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 125%;
+        color: #fff;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1320px) {
+  .useful {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .useful_content {
+      display: none;
+      max-width: 1341px;
+      height: 383px;
+      background-image: url(../../images/useful_bgimg_tablet.png);
+      background-size: auto 383px;
+      background-repeat: no-repeat;
+      background-position: right;
+      overflow: hidden;
+      position: relative;
+    }
+    .useful_content::before {
+      content: "";
+      width: 1000px;
+      height: 1000px;
+      background-color: rgba(11, 117, 114, 0.3);
+      position: absolute;
+      right: 85px;
+      transform: rotate(50deg);
+    }
+    .useful_content::after {
+      content: "";
+      text-align: right;
+
+      width: 1015px;
+      height: 1000px;
+      background-color: #0b7572;
+      position: absolute;
+
+      right: 172px;
+      transform: rotate(50deg);
+      overflow: clip;
+    }
+    .useful_content_inform {
+      width: 450px;
+      height: 400px;
+      z-index: 3;
+      position: absolute;
+      display: grid;
+      align-content: center;
+      padding-left: 39px;
+      .useful_content_title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 125%;
+        color: #fff;
+      }
+    }
+  }
+}

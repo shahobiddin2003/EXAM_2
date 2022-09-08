@@ -1,0 +1,111 @@
+.useful_cardlist {
+  .useful_content_title {
+    display: none;
+  }
+  display: grid;
+  grid-template-columns: 447px 447px;
+  grid-template-rows: 80px 80px;
+  align-content: center;
+  gap: 62px 140px;
+  margin-top: 72px;
+  .useful_cardlist_card {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    .useful_cardlist_card_img {
+      width: 80px;
+      height: 80px;
+    }
+    .useful_cardlist_card_inform {
+      max-width: 300px;
+      margin-left: 20px;
+      .useful_cardlist_card_inform_title {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0;
+        margin-bottom: 10px;
+      }
+      .useful_cardlist_card_inform_content {
+        font-weight: 400;
+        font-size: 16px;
+        margin: 0;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1320px) {
+  .useful_cardlist {
+    .useful_content_title {
+      display: none;
+    }
+    display: grid;
+    grid-template-columns: 516px;
+    grid-template-rows: 88px 88px 88px 88px;
+    align-content: left;
+    gap: 62px 140px;
+    margin-top: 72px;
+    .useful_cardlist_card {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      .useful_cardlist_card_img {
+        width: 80px;
+        height: 80px;
+      }
+      .useful_cardlist_card_inform {
+        max-width: 380px;
+        margin-left: 20px;
+        .useful_cardlist_card_inform_title {
+          font-size: 20px;
+          font-weight: 600;
+          margin: 0;
+          margin-bottom: 10px;
+        }
+        .useful_cardlist_card_inform_content {
+          font-weight: 400;
+          font-size: 16px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 720px) {
+  .useful_cardlist {
+    .useful_content_title {
+      display: block;
+      font-weight: 600;
+      font-size: 28px;
+    }
+    display: grid;
+    grid-template-columns: 337px;
+    grid-template-rows: 74px 74px 74px 74px;
+    align-content: left;
+    gap: 62px 140px;
+    margin-top: 72px;
+    .useful_cardlist_card {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      .useful_cardlist_card_img {
+        width: 52px;
+        height: 52px;
+      }
+      .useful_cardlist_card_inform {
+        max-width: 269px;
+        margin-left: 18px;
+        .useful_cardlist_card_inform_title {
+          font-size: 20px;
+          font-weight: 600;
+          margin: 0;
+          margin-bottom: 10px;
+        }
+        .useful_cardlist_card_inform_content {
+          font-weight: 400;
+          font-size: 15px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
